@@ -20,7 +20,7 @@ public class SillyMethodsTest {
 
     @Test
     public void testCountTo10(){
-        SillyMethods sillyMethods = null;
+        SillyMethods sillyMethods = new SillyMethods();
         String result = String.valueOf(sillyMethods.countTo(10));
         Assertions.assertEquals("0 1 2 3 4 5 6 7 8 9 10", result);
     }
